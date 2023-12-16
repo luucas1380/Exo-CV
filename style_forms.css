@@ -10,5 +10,28 @@
 
     font-family: 'Raleway-italic';
     src: url('./assets/Fonts/Raleway/Raleway-Italic.ttf'), format('truetype');
-    
+
+}
+
+header
+{
+    font-family: 'Raleway-Regular',sans-serif;
+    color: white;
+    background: #782221;
+}
+
+.profile_picture:hover
+
+{
+    cursor: zoom-in;
+}
+
+.Name_first_name
+{
+    text-transform: uppercase;
+}
+
+.job
+{
+    text-transform: capitalize;
 }
