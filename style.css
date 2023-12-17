@@ -153,3 +153,53 @@ main
     padding-left: 0.5rem;
     margin-left: 2.5rem;
 }
+
+/* FOOTER CV */
+
+footer 
+{
+    min-height: 10rem;
+    width: 100%;
+    background: #782221;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons_twitter 
+{
+    border-radius: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    background-color: #00acee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons_linkedin
+{
+    border-radius: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    background-color: #0e76a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons_github 
+{
+    border-radius: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
