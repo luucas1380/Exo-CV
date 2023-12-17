@@ -112,3 +112,10 @@ main h2
 {
     border-right: 0.2rem solid #6d071a;
 }
+
+/* FOOTER */
+
+footer div:hover 
+{
+    opacity: 0.8;
+}
