@@ -6,6 +6,8 @@ body
     margin:auto;
 }
 
+/* section/header */
+
 header
 {
     min-height: 20rem;
@@ -31,6 +33,7 @@ img
     box-shadow: -5px -4px 20px 10px #ffffff4a;
 }
 
+/* section/address  */
 
 address
 {
@@ -60,4 +63,93 @@ address
     width: 10rem;
     display: flex;
     justify-content: flex-end;
+}
+
+/* section/main */
+
+main 
+{
+    min-height: 60rem;
+    width: 1159px;
+    border-right: 1px  solid black;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+
+/* left CV */
+
+.left_of_cv
+{   
+    min-height: 60rem;
+    width: 35%;
+}
+
+.left_of_cv h2 
+{
+    height: 2rem;
+    width: 20rem;
+    padding-left: 1.5rem;
+}
+
+.about p 
+{
+    height: 13rem;
+    width: 20rem;
+    margin: 1.5rem;
+}
+
+.language_speak ul
+{   
+    margin-bottom: 3rem;  
+}
+
+/* right CV */
+
+.right_of_cv
+{
+    min-height: 60rem;
+    width: 65%;
+}
+
+.professional_experience h2
+{
+    border-left: 0.5rem solid #782221;
+    height: 2rem;
+    width: 40rem;
+    padding-left: 0.5rem;
+    margin-left: 2.5rem;
+}
+
+.professional_experience h3, p, ul 
+{
+    margin-left: 2.5rem;
+}
+
+
+.diplomas_trainings h2 
+{
+    border-left: 0.5rem solid #782221;
+    height: 2rem;
+    width: 40rem;
+    padding-left: 0.5rem;
+    margin-left: 2.5rem;
+}
+
+
+.diplomas_trainings h3, p 
+{
+    margin-left: 2.5rem;
+}
+
+
+.skills h2
+{
+    border-left: 0.5rem solid #782221;
+    height: 2rem;
+    width: 40rem;
+    padding-left: 0.5rem;
+    margin-left: 2.5rem;
 }

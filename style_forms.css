@@ -13,6 +13,8 @@
 
 }
 
+/* header */
+
 header
 {
     font-family: 'Raleway-Regular',sans-serif;
@@ -52,4 +54,61 @@ address div a
 address div a:hover 
 {
     text-decoration: underline;
+}
+
+/* main */
+
+main 
+{
+    font-family: "Raleway-Regular", sans-serif;   
+}
+
+main h2, h3
+{
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+main h2
+{
+    background:  #dbc2a4;
+}
+
+/* left CV */
+
+.left_of_cv 
+{
+    background: #782221;
+}
+
+.about p 
+{
+    text-align: justify;
+    text-indent: 2rem;
+    color: white;   
+}
+
+.left_of_cv ul 
+{
+    color: white;
+}
+
+/* Right CV */
+
+.professional_experience li:hover
+
+{
+    border-right: 0.2rem solid #6d071a;
+}
+
+.diplomas_trainings p:hover
+
+{
+    border-right: 0.2rem solid #6d071a;
+}
+
+.skills li:hover 
+
+{
+    border-right: 0.2rem solid #6d071a;
 }
