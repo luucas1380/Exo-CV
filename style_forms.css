@@ -35,3 +35,21 @@ header
 {
     text-transform: capitalize;
 }
+
+/* section */
+
+address 
+{
+    background:#2c1d27 ;
+}
+
+address div a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+address div a:hover 
+{
+    text-decoration: underline;
+}

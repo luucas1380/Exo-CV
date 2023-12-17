@@ -30,3 +30,34 @@ img
     border-radius: 100%;
     box-shadow: -5px -4px 20px 10px #ffffff4a;
 }
+
+
+address
+{
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maps 
+{
+    padding-left: 1rem;
+    width: 11rem;
+}
+
+.mail 
+{
+    width: 13rem;
+}
+
+.phone
+
+{
+    padding-right: 1rem;
+    width: 10rem;
+    display: flex;
+    justify-content: flex-end;
+}
