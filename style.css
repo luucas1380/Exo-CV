@@ -105,3 +105,51 @@ main
 {   
     margin-bottom: 3rem;  
 }
+
+/* right CV */
+
+.right_of_cv
+{
+    min-height: 60rem;
+    width: 65%;
+}
+
+.professional_experience h2
+{
+    border-left: 0.5rem solid #782221;
+    height: 2rem;
+    width: 40rem;
+    padding-left: 0.5rem;
+    margin-left: 2.5rem;
+}
+
+.professional_experience h3, p, ul 
+{
+    margin-left: 2.5rem;
+}
+
+
+.diplomas_trainings h2 
+{
+    border-left: 0.5rem solid #782221;
+    height: 2rem;
+    width: 40rem;
+    padding-left: 0.5rem;
+    margin-left: 2.5rem;
+}
+
+
+.diplomas_trainings h3, p 
+{
+    margin-left: 2.5rem;
+}
+
+
+.skills h2
+{
+    border-left: 0.5rem solid #782221;
+    height: 2rem;
+    width: 40rem;
+    padding-left: 0.5rem;
+    margin-left: 2.5rem;
+}

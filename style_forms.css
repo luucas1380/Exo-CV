@@ -92,3 +92,23 @@ main h2
 {
     color: white;
 }
+
+/* Right CV */
+
+.professional_experience li:hover
+
+{
+    border-right: 0.2rem solid #6d071a;
+}
+
+.diplomas_trainings p:hover
+
+{
+    border-right: 0.2rem solid #6d071a;
+}
+
+.skills li:hover 
+
+{
+    border-right: 0.2rem solid #6d071a;
+}
