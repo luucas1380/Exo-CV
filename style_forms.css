@@ -22,7 +22,7 @@ header
     background: #782221;
 }
 
-.profile_picture:hover
+img:hover
 
 {
     cursor: zoom-in;
